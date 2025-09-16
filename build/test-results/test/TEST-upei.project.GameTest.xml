@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upei.project.GameTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-09-16T18:31:45" hostname="GOD_ELIJAH" time="0.18">
+  <properties/>
+  <testcase name="testDetermineWinner()" classname="upei.project.GameTest" time="0.009"/>
+  <testcase name="testRemainingGems()" classname="upei.project.GameTest" time="0.001"/>
+  <testcase name="testTreasureToPocket()" classname="upei.project.GameTest" time="0.006"/>
+  <testcase name="testRelicCardToPocket()" classname="upei.project.GameTest" time="0.006"/>
+  <testcase name="testGameInitialization()" classname="upei.project.GameTest" time="0.001"/>
+  <testcase name="testCheckForTrapRepeats()" classname="upei.project.GameTest" time="0.016"/>
+  <testcase name="testNewRoundResetsPlayers()" classname="upei.project.GameTest" time="0.073"/>
+  <testcase name="testPlayMethod()" classname="upei.project.GameTest" time="0.042"/>
+  <testcase name="testTreasureTypeDecreasesGems()" classname="upei.project.GameTest" time="0.005"/>
+  <testcase name="testAddToPlayedCard()" classname="upei.project.GameTest" time="0.004"/>
+  <system-out><![CDATA[
+ The Winner of the Game is Bob with 70 points! Congratulations!
+
+ Final Scores:
+ - Alice: 50 points
+ - Bob: 70 points
+ - Charlie: 30 points
+Alice found a treasure worth 3 gems!
+Alice got 3 Rubies
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Alice encountered a trap: SNAKES! Venomous snakes slither in the darkness!
+Disaster! Alice was forced out of the cave and lost all their loot!
+Starting the game...
+
+  ###  DAY 1  ### 
+You have 4 days left to claim your riches!
+
+Alice strides boldly into the cave
+Bob strides boldly into the cave
+Charlie strides boldly into the cave
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Charlie found a treasure worth 10 gems!
+Charlie got 10 Rubies
+Alice found a treasure worth 8 gems!
+Alice got 8 Rubies
+Bob found a treasure worth 5 gems!
+Bob got 5 Diamonds
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Charlie found a treasure worth 2 gems!
+Charlie got 2 Diamonds
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+Charlie found a treasure worth 6 gems!
+Charlie got 6 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Bob found a treasure worth 3 gems!
+Bob got 3 Diamonds
+Charlie found a treasure worth 1 gems!
+Charlie got 1 Rubies
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Charlie encountered a trap: LAVA PITS! Molten lava floods the floor of the cave!
+Disaster! Charlie was forced out of the cave and lost all their loot!
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Alice found a treasure worth 1 gems!
+Alice got 1 Diamonds
+Bob found a treasure worth 3 gems!
+Bob got 3 Rubies
+Alice found a treasure worth 9 gems!
+Alice got 9 Rubies
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Alice found a treasure worth 5 gems!
+Alice got 5 Rubies
+No more tokens in the deck!
+Skipping drawing a token as the deck is empty.
+Bob found a treasure worth 5 gems!
+Bob got 5 Rubies
+
+  ###  DAY 2  ### 
+You have 3 days left to claim your riches!
+
+Alice has left the cave with their loot. Safe travels and get ready for the next adventure!
+Alice strides boldly into the cave
+Bob has left the cave with their loot. Safe travels and get ready for the next adventure!
+Bob strides boldly into the cave
+Charlie strides boldly into the cave
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Bob found a treasure worth 5 gems!
+Bob got 5 Diamonds
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+Charlie found a treasure worth 2 gems!
+Charlie got 2 Diamonds
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Charlie found a treasure worth 1 gems!
+Charlie got 1 Rubies
+Alice found a treasure worth 3 gems!
+Alice got 3 Diamonds
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Alice found a treasure worth 4 gems!
+Alice got 4 Rubies
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Charlie found a treasure worth 10 gems!
+Charlie got 10 Rubies
+Alice found a treasure worth 7 gems!
+Alice got 7 Rubies
+Bob found a treasure worth 9 gems!
+Bob got 9 Rubies
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Bob found a treasure worth 6 gems!
+Bob got 6 Rubies
+Charlie found a treasure worth 1 gems!
+Charlie got 1 Diamonds
+
+  ###  DAY 3  ### 
+You have 2 days left to claim your riches!
+
+Alice has left the cave with their loot. Safe travels and get ready for the next adventure!
+Alice strides boldly into the cave
+Bob has left the cave with their loot. Safe travels and get ready for the next adventure!
+Bob strides boldly into the cave
+Charlie has left the cave with their loot. Safe travels and get ready for the next adventure!
+Charlie strides boldly into the cave
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Alice found a treasure worth 4 gems!
+Alice got 4 Rubies
+Bob found a treasure worth 8 gems!
+Bob got 8 Rubies
+Charlie found a treasure worth 2 gems!
+Charlie got 2 Diamonds
+Alice found a treasure worth 10 gems!
+Alice got 10 Rubies
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Bob found a treasure worth 9 gems!
+Bob got 9 Rubies
+Charlie found a treasure worth 4 gems!
+Charlie got 4 Diamonds
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Charlie found a treasure worth 2 gems!
+Charlie got 2 Rubies
+Alice found a treasure worth 1 gems!
+Alice got 1 Rubies
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+Alice found a treasure worth 7 gems!
+Alice got 7 Rubies
+Bob found a treasure worth 1 gems!
+Bob got 1 Diamonds
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Alice found a treasure worth 6 gems!
+Alice got 6 Rubies
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+
+  ###  DAY 4  ### 
+You have 1 days left to claim your riches!
+
+Alice has left the cave with their loot. Safe travels and get ready for the next adventure!
+Alice strides boldly into the cave
+Bob has left the cave with their loot. Safe travels and get ready for the next adventure!
+Bob strides boldly into the cave
+Charlie has left the cave with their loot. Safe travels and get ready for the next adventure!
+Charlie strides boldly into the cave
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Charlie found a treasure worth 1 gems!
+Charlie got 1 Rubies
+Alice found a treasure worth 4 gems!
+Alice got 4 Diamonds
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+Charlie found a treasure worth 8 gems!
+Charlie got 8 Rubies
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Alice found a treasure worth 5 gems!
+Alice got 5 Rubies
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Alice found a treasure worth 5 gems!
+Alice got 5 Diamonds
+Bob found a treasure worth 4 gems!
+Bob got 4 Rubies
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Alice found a treasure worth 10 gems!
+Alice got 10 Rubies
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Bob found a treasure worth 3 gems!
+Bob got 3 Diamonds
+Charlie found a treasure worth 9 gems!
+Charlie got 9 Rubies
+Alice found a treasure worth 3 gems!
+Alice got 3 Rubies
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Bob found a treasure worth 7 gems!
+Bob got 7 Rubies
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Bob encountered a trap: FLOODS! Water rushes into the cave, threatening to drown everyone!
+Disaster! Bob was forced out of the cave and lost all their loot!
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Charlie found a treasure worth 6 gems!
+Charlie got 6 Rubies
+
+  ###  DAY 5  ### 
+You have 0 days left to claim your riches!
+
+Alice has left the cave with their loot. Safe travels and get ready for the next adventure!
+Alice strides boldly into the cave
+Bob strides boldly into the cave
+Charlie has left the cave with their loot. Safe travels and get ready for the next adventure!
+Charlie strides boldly into the cave
+Alice found a treasure worth 6 gems!
+Alice got 6 Rubies
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Alice found a treasure worth 9 gems!
+Alice got 9 Rubies
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+Alice found a treasure worth 2 gems!
+Alice got 2 Diamonds
+Bob found a treasure worth 4 gems!
+Bob got 4 Diamonds
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+Alice found a treasure worth 2 gems!
+Alice got 2 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Bob found a treasure worth 4 gems!
+Bob got 4 Rubies
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Alice found a treasure worth 3 gems!
+Alice got 3 Rubies
+Bob found a treasure worth 5 gems!
+Bob got 5 Rubies
+Charlie found a treasure worth 1 gems!
+Charlie got 1 Diamonds
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+Alice found a treasure worth 7 gems!
+Alice got 7 Rubies
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+Alice has left the cave with their loot. Safe travels and get ready for the next adventure!
+Alice strides boldly into the cave
+Bob has left the cave with their loot. Safe travels and get ready for the next adventure!
+Bob strides boldly into the cave
+Charlie has left the cave with their loot. Safe travels and get ready for the next adventure!
+Charlie strides boldly into the cave
+Starting the game...
+
+  ###  DAY 1  ### 
+You have 4 days left to claim your riches!
+
+Alice strides boldly into the cave
+Bob strides boldly into the cave
+Charlie strides boldly into the cave
+Alice found a treasure worth 5 gems!
+Alice got 5 Rubies
+Bob found a treasure worth 1 gems!
+Bob got 1 Rubies
+Charlie found a treasure worth 2 gems!
+Charlie got 2 Diamonds
+Alice found a treasure worth 4 gems!
+Alice got 4 Rubies
+Bob found a treasure worth 2 gems!
+Bob got 2 Rubies
+Charlie found a treasure worth 10 gems!
+Charlie got 10 Rubies
+Alice found a treasure worth 4 gems!
+Alice got 4 Diamonds
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Bob encountered a trap: FLOODS! Water rushes into the cave, threatening to drown everyone!
+Disaster! Bob was forced out of the cave and lost all their loot!
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Charlie found a treasure worth 5 gems!
+Charlie got 5 Diamonds
+Alice found a treasure worth 6 gems!
+Alice got 6 Rubies
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Alice encountered a trap: LAVA PITS! Molten lava floods the floor of the cave!
+Disaster! Alice was forced out of the cave and lost all their loot!
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Charlie found a treasure worth 7 gems!
+Charlie got 7 Rubies
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Charlie found a treasure worth 3 gems!
+Charlie got 3 Rubies
+No more tokens in the deck!
+Skipping drawing a token as the deck is empty.
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+
+  ###  DAY 2  ### 
+You have 3 days left to claim your riches!
+
+Alice strides boldly into the cave
+Bob strides boldly into the cave
+Charlie has left the cave with their loot. Safe travels and get ready for the next adventure!
+Charlie strides boldly into the cave
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Alice encountered a trap: SNAKES! Venomous snakes slither in the darkness!
+Disaster! Alice was forced out of the cave and lost all their loot!
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Charlie found a treasure worth 3 gems!
+Charlie got 3 Diamonds
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+Bob found a treasure worth 1 gems!
+Bob got 1 Diamonds
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+Bob found a treasure worth 4 gems!
+Bob got 4 Diamonds
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+Bob found a treasure worth 2 gems!
+Bob got 2 Rubies
+Charlie found a treasure worth 6 gems!
+Charlie got 6 Rubies
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Bob found a treasure worth 10 gems!
+Bob got 10 Rubies
+Charlie found a treasure worth 9 gems!
+Charlie got 9 Rubies
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Charlie found a treasure worth 3 gems!
+Charlie got 3 Rubies
+Bob found a treasure worth 1 gems!
+Bob got 1 Rubies
+Charlie found a treasure worth 4 gems!
+Charlie got 4 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+
+  ###  DAY 3  ### 
+You have 2 days left to claim your riches!
+
+Alice strides boldly into the cave
+Bob has left the cave with their loot. Safe travels and get ready for the next adventure!
+Bob strides boldly into the cave
+Charlie has left the cave with their loot. Safe travels and get ready for the next adventure!
+Charlie strides boldly into the cave
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Charlie encountered a trap: FLOODS! Water rushes into the cave, threatening to drown everyone!
+Disaster! Charlie was forced out of the cave and lost all their loot!
+Charlie found a treasure worth 4 gems!
+Charlie got 4 Rubies
+Alice found a treasure worth 1 gems!
+Alice got 1 Diamonds
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Bob found a treasure worth 8 gems!
+Bob got 8 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+Bob encountered a trap: BATTERING RAMS! Powerful rams charge through the cave!
+Disaster! Bob was forced out of the cave and lost all their loot!
+Bob found a treasure worth 3 gems!
+Bob got 3 Diamonds
+Alice found a treasure worth 5 gems!
+Alice got 5 Diamonds
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Alice found a treasure worth 7 gems!
+Alice got 7 Rubies
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Alice found a treasure worth 2 gems!
+Alice got 2 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Alice found a treasure worth 9 gems!
+Alice got 9 Rubies
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Alice found a treasure worth 5 gems!
+Alice got 5 Rubies
+Alice found a treasure worth 10 gems!
+Alice got 10 Rubies
+No more tokens in the deck!
+Skipping drawing a token as the deck is empty.
+Alice found a treasure worth 3 gems!
+Alice got 3 Rubies
+
+  ###  DAY 4  ### 
+You have 1 days left to claim your riches!
+
+Alice has left the cave with their loot. Safe travels and get ready for the next adventure!
+Alice strides boldly into the cave
+Bob strides boldly into the cave
+Charlie strides boldly into the cave
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Bob found a treasure worth 8 gems!
+Bob got 8 Rubies
+Charlie found a treasure worth 7 gems!
+Charlie got 7 Rubies
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Alice found a treasure worth 2 gems!
+Alice got 2 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+Charlie found a treasure worth 10 gems!
+Charlie got 10 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+Bob found a treasure worth 3 gems!
+Bob got 3 Diamonds
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Bob found a treasure worth 4 gems!
+Bob got 4 Rubies
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Charlie encountered a trap: CAVE-INS! Rocks fall from the ceiling, blocking your path!
+Disaster! Charlie was forced out of the cave and lost all their loot!
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+Bob found a treasure worth 4 gems!
+Bob got 4 Diamonds
+Alice found a treasure worth 3 gems!
+Alice got 3 Rubies
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Bob found a treasure worth 5 gems!
+Bob got 5 Diamonds
+Alice found a treasure worth 2 gems!
+Alice got 2 Diamonds
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+No more tokens in the deck!
+Skipping drawing a token as the deck is empty.
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+No more tokens in the deck!
+Skipping drawing a token as the deck is empty.
+Bob discovered a Relic token.... ! 5 bonus points awarded.
+
+  ###  DAY 5  ### 
+You have 0 days left to claim your riches!
+
+Alice has left the cave with their loot. Safe travels and get ready for the next adventure!
+Alice strides boldly into the cave
+Bob has left the cave with their loot. Safe travels and get ready for the next adventure!
+Bob strides boldly into the cave
+Charlie strides boldly into the cave
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Alice found a treasure worth 9 gems!
+Alice got 9 Rubies
+Bob found a treasure worth 4 gems!
+Bob got 4 Rubies
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+Charlie found a treasure worth 1 gems!
+Charlie got 1 Rubies
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+A trap has been triggered: LAVA_PITS! Be careful as you continue to explore
+Alice discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+Alice found a treasure worth 7 gems!
+Alice got 7 Rubies
+Bob found a treasure worth 4 gems!
+Bob got 4 Diamonds
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+Bob found a treasure worth 2 gems!
+Bob got 2 Rubies
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: FLOODS! Be careful as you continue to explore
+A trap has been triggered: CAVE_INS! Be careful as you continue to explore
+A trap has been triggered: SPIDERS! Be careful as you continue to explore
+A trap has been triggered: ROLLING_BOULDERS! Be careful as you continue to explore
+Bob found a treasure worth 1 gems!
+Bob got 1 Diamonds
+Charlie discovered a Relic token.... ! 5 bonus points awarded.
+A trap has been triggered: BATTERING_RAMS! Be careful as you continue to explore
+A trap has been triggered: POISONOUS_GAS! Be careful as you continue to explore
+A trap has been triggered: SNAKES! Be careful as you continue to explore
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

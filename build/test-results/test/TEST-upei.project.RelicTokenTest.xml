@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upei.project.RelicTokenTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-09-16T18:31:45" hostname="GOD_ELIJAH" time="0.022">
+  <properties/>
+  <testcase name="performActionAddsBonusPoints()" classname="upei.project.RelicTokenTest" time="0.012"/>
+  <testcase name="performActionPrintsCorrectMessage()" classname="upei.project.RelicTokenTest" time="0.004"/>
+  <system-out><![CDATA[Alice discovered a Relic token.... ! 5 bonus points awarded.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
